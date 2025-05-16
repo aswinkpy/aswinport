@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     const typingElement = document.getElementById('typing');
-    const words = ["Web Developer", "Developer", "Web Designer", "Youtuber", "Script Writer"];
+    const words = ["Web Developer", "Developer", "Web Designer", "App Development"];
     let wordIndex = 0;
     let letterIndex = 0;
     let currentWord = '';
