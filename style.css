@@ -238,7 +238,6 @@ span {
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
     color: #b74b4b;
-    
 }
 
 .social-icons a:hover {
@@ -329,31 +328,4 @@ span {
         width: 70vw;
         margin-top: 4rem;
     }
-}
-/* Fade-in animation keyframes */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Apply fade-in to image and text content */
-.home-img img,
-.home-content {
-    opacity: 0;
-    animation: fadeIn 2s ease-out forwards;
-}
-
-/* Optional delay for smooth stagger effect */
-.home-img img {
-    animation-delay: 0.2s;
-}
-
-.home-content {
-    animation-delay: 0.6s;
 }
